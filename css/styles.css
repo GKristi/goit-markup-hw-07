@@ -561,7 +561,7 @@ color: var(--background-color);
     color: var(--magic-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 268px;
+    width: 264px;
     margin: 0 auto;
 }
 
@@ -662,7 +662,7 @@ color: var(--background-color);
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    padding: 8px 24px;
+    padding: 6px 24px;
     color: var(--magic-color);
     background-color: var(--primary-brand-color);
     font-family: "Roboto", sans-serif;
@@ -1210,6 +1210,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     }
 
     /* Team Section */
+    .team > .container{
+        padding-left: 105px;
+        padding-right: 105px;
+    }
 
     .team-list {
         gap: 56px 24px;
@@ -1220,6 +1224,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     }
 
     /*Customers Section*/
+    .customers>.container {
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+
     .customers-item {
         flex-basis: calc((100% - 32px) /3);
     }
@@ -1229,6 +1238,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+    }
+
+    .footer>.footer-container {
+        padding-left: 105px;
+        padding-right: 105px;
     }
 
 
@@ -1246,7 +1260,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     .footer-form .form-input {
         width: 264px;
         margin-right: 24px;
-    }.subscription-box {
+    }
+    .subscription-box {
         margin-top: 72px;
     }
 
@@ -1360,6 +1375,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         padding-bottom: 120px;
     }
 
+    .team>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .team-item {
         flex-basis: calc((100% - 72px) / 4);
     }
@@ -1369,6 +1389,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+        
+    .customers>.container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .customers-item {
@@ -1381,6 +1406,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         padding-top: 100px;
         padding-bottom: 100px;
     }
+        .footer>.footer-container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
         .footer-container {
             width: 1158px;
             display: flex;
