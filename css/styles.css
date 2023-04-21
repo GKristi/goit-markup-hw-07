@@ -564,9 +564,16 @@ color: var(--background-color);
     letter-spacing: 0.02em;
     width: 264px;
     margin: 0 auto;
+}
+
+.footer-logo{
     margin-bottom: 72px;
 }
 
+
+.foot-network{
+    margin-bottom: 72px;
+}
 
 .foot-network-title, .foot-subscription-title {
     font-weight: 500;
@@ -575,14 +582,13 @@ color: var(--background-color);
     letter-spacing: 0.02em;
     color: var(--magic-color);
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .foot-network-list {
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 0;
-    margin-top: 16px;
-    margin-bottom: 72px;
 }
 
 .network-icon {
@@ -601,6 +607,7 @@ color: var(--background-color);
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    margin: 0;
 }
 
 .foot-network-item {
@@ -622,7 +629,6 @@ color: var(--background-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 16px;
 }
 
 .footer-form .form-input {
@@ -1098,8 +1104,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         display: flex;
     }
     
-    .nav-item:not(:last-child),
-    .address-item:not(:last-child) {
+    .nav-item:not(:last-child){
         margin-right: 40px;
     }
     
@@ -1129,7 +1134,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         content: "";
         position: absolute;
         left: 0;
-        bottom: -24px;
+        bottom: -25px;
         width: 100%;
         height: 4px;
     
@@ -1260,7 +1265,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     .foot-subscription-title {
         margin-top: 0;
         text-align: left;
+    }
 
+    .foot-network, .footer-logo {
+        margin-bottom: 0px;
     }
 
     .logo-bottom {
@@ -1293,7 +1301,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     }
     .address-item:not(:last-child) {
         margin-bottom: 0px;
-    }   
+    } 
+    
+    .address-item:not(:last-child) {
+        margin-right: 40px;
+    }
 
     .address-text {
 
