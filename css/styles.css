@@ -333,7 +333,7 @@ color: var(--headings-color);
     margin: 0 auto;
     font-weight: 600;
     font-size: 36px;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
@@ -492,9 +492,8 @@ color: var(--headings-color);
 
 
 .customers-item{
-    flex-basis: 100%;
-    display: flex;
-    flex-basis: calc((100% - 16px) /2);
+    margin: 0 auto;
+
 }
 
 .customers-link{
@@ -1057,6 +1056,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         max-width: 392px;
         width: calc(100vw - 30px);
     }
+
+        .customers-item {
+            flex-basis: 100%;
+            display: flex;
+            flex-basis: calc((100% - 16px) /2);
+        }
 }
 
 @media screen and (min-width: 768px){
@@ -1164,10 +1169,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
                         47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-768.jpg);
     }
     .hero-title {
-        width: 500px;
+        max-width: 496px;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.11;
+        line-height: 1.07;
     }
 
     @media (min-device-pixel-ratio: 2),
