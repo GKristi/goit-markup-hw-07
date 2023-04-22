@@ -246,7 +246,6 @@ color: var(--headings-color);
     text-transform: capitalize;
     color: var(--headings-color);
     transition: color --transition-dur-and-func;
-
 }
 
 .mobile-menu-link:focus{
@@ -398,6 +397,7 @@ color: var(--headings-color);
 .feature-text{
     margin-top: 8px;
     margin-bottom: 0;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -1350,13 +1350,17 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
     .feature-direction {
         margin-top: 8px;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 20px;
         line-height: 1.2;
     }
 
     .feature-item {
         flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .feature-text{
+        font-weight: 400;
     }
 
     .container-features-icon {
